@@ -1,0 +1,23 @@
+{
+ "creation": "2025-08-24 22:13:25.448411",
+ "currency": "EGP",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{\"user\":\"shaabanheba2@gmail.com\",\"doctype\":\"CRM Lead\",\"show_permissions\":1}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "Jossoor CRM",
+ "modified": "2025-09-04 13:44:49.585007",
+ "modified_by": "Administrator",
+ "module": "CRM",
+ "name": "Frappe CRM",
+ "owner": "Administrator",
+ "report_field": "read",
+ "report_function": "Average",
+ "report_name": "Permitted Documents For User",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

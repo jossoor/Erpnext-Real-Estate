@@ -1,0 +1,703 @@
+{
+ "charts": [
+  {
+   "chart_name": "Profit and Loss",
+   "label": "Profit and Loss"
+  }
+ ],
+ "content": "[{\"id\":\"MmUf9abwxg\",\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"Accounts\",\"col\":12}},{\"id\":\"nDhfcJYbKH\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Profit and Loss\",\"col\":12}},{\"id\":\"VVvJ1lUcfc\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Outgoing Bills\",\"col\":3}},{\"id\":\"Vlj2FZtlHV\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Incoming Bills\",\"col\":3}},{\"id\":\"VVVjQVAhPf\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Incoming Payment\",\"col\":3}},{\"id\":\"DySNdlysIW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Outgoing Payment\",\"col\":3}},{\"id\":\"9k1rDm2C0l\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"vikWSkNm6_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>\u0627\u0644\u0627\u062e\u062a\u0635\u0627\u0631\u0627\u062a</b></span>\",\"col\":12}},{\"id\":\"7uIrcxvpxN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payment Terms Template\",\"col\":3}},{\"id\":\"W6TDnhwu-_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payment Term\",\"col\":3}},{\"id\":\"pMywM0nhlj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Chart of Accounts\",\"col\":3}},{\"id\":\"_pRdD6kqUG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Invoice\",\"col\":3}},{\"id\":\"G984SgVRJN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Invoice\",\"col\":3}},{\"id\":\"1ArNvt9qhz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Journal Entry\",\"col\":3}},{\"id\":\"tHb3yxthkR\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\">\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631 \u0648\u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629</span>\",\"col\":12}},{\"id\":\"DnNtsmxpty\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0627\u0644\u0633\u062c\u0644\u0627\u062a \u0627\u0644\u0645\u062d\u0627\u0633\u0628\u064a\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629\",\"col\":4}},{\"id\":\"nKKr6fjgjb\",\"type\":\"card\",\"data\":{\"card_name\":\"Payments\",\"col\":4}},{\"id\":\"KlqilF5R_V\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0633\u062c\u0644\u0627\u062a \u0627\u0644\u0636\u0631\u064a\u0628\u064a\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629\",\"col\":4}},{\"id\":\"jTUy8LB0uw\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0645\u0631\u0643\u0632 \u0627\u0644\u062a\u0643\u0644\u0641\u0629 \u0648\u0627\u0644\u0645\u064a\u0632\u0627\u0646\u064a\u0629\",\"col\":4}},{\"id\":\"Wn2lhs7WLn\",\"type\":\"card\",\"data\":{\"card_name\":\"Multi Currency\",\"col\":4}},{\"id\":\"PAQMqqNkBM\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0627\u0644\u0639\u0645\u0644\u064a\u0627\u062a \u0627\u0644\u0628\u0646\u0643\u064a\u0629\",\"col\":4}},{\"id\":\"kxhoaiqdLq\",\"type\":\"card\",\"data\":{\"card_name\":\"Opening and Closing\",\"col\":4}},{\"id\":\"q0MAlU2j_Z\",\"type\":\"card\",\"data\":{\"card_name\":\"Subscription Management\",\"col\":4}},{\"id\":\"ptm7T6Hwu-\",\"type\":\"card\",\"data\":{\"card_name\":\"Share Management\",\"col\":4}}]",
+ "creation": "2020-03-02 15:41:59.515192",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "accounting",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Accounting",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Multi Currency",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Currency",
+   "link_count": 0,
+   "link_to": "Currency",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Currency Exchange",
+   "link_count": 0,
+   "link_to": "Currency Exchange",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exchange Rate Revaluation",
+   "link_count": 0,
+   "link_to": "Exchange Rate Revaluation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subscription Management",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subscription Plan",
+   "link_count": 0,
+   "link_to": "Subscription Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subscription",
+   "link_count": 0,
+   "link_to": "Subscription",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subscription Settings",
+   "link_count": 0,
+   "link_to": "Subscription Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Share Management",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shareholder",
+   "link_count": 0,
+   "link_to": "Shareholder",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Share Transfer",
+   "link_count": 0,
+   "link_to": "Share Transfer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Share Transfer",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Share Ledger",
+   "link_count": 0,
+   "link_to": "Share Ledger",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Share Transfer",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Share Balance",
+   "link_count": 0,
+   "link_to": "Share Balance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Chart of Cost Centers",
+   "link_count": 0,
+   "link_to": "Cost Center",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Budget",
+   "link_count": 0,
+   "link_to": "Budget",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Accounting Dimension",
+   "link_count": 0,
+   "link_to": "Accounting Dimension",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Cost Center",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cost Center Allocation",
+   "link_count": 0,
+   "link_to": "Cost Center Allocation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Cost Center",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Budget Variance Report",
+   "link_count": 0,
+   "link_to": "Budget Variance Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Distribution",
+   "link_count": 0,
+   "link_to": "Monthly Distribution",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Opening and Closing",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Opening Invoice Creation Tool",
+   "link_count": 0,
+   "link_to": "Opening Invoice Creation Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Chart of Accounts Importer",
+   "link_count": 0,
+   "link_to": "Chart of Accounts Importer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Period Closing Voucher",
+   "link_count": 0,
+   "link_to": "Period Closing Voucher",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payments",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Entry",
+   "link_count": 0,
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Journal Entry",
+   "link_count": 0,
+   "link_to": "Journal Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Journal Entry Template",
+   "link_count": 0,
+   "link_to": "Journal Entry Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Terms and Conditions",
+   "link_count": 0,
+   "link_to": "Terms and Conditions",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Mode of Payment",
+   "link_count": 0,
+   "link_to": "Mode of Payment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0633\u062c\u0644\u0627\u062a \u0627\u0644\u0645\u062d\u0627\u0633\u0628\u064a\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629",
+   "link_count": 8,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0634\u0631\u0643\u0629",
+   "link_count": 0,
+   "link_to": "Company",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u062f\u0644\u064a\u0644 \u0627\u0644\u062d\u0633\u0627\u0628\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Account",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0625\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u062d\u0633\u0627\u0628\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Accounts Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u0645\u0627\u0644\u064a\u0629",
+   "link_count": 0,
+   "link_to": "Fiscal Year",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0628\u064f\u0639\u062f \u0645\u062d\u0627\u0633\u0628\u064a",
+   "link_count": 0,
+   "link_to": "Accounting Dimension",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u062f\u0641\u062a\u0631 \u0627\u0644\u0645\u0627\u0644\u064a",
+   "link_count": 0,
+   "link_to": "Finance Book",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0641\u062a\u0631\u0629 \u0627\u0644\u0645\u062d\u0627\u0633\u0628\u0629",
+   "link_count": 0,
+   "link_to": "Accounting Period",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0634\u0631\u0637 \u0627\u0644\u062f\u0641\u0639",
+   "link_count": 0,
+   "link_to": "Payment Term",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0633\u062c\u0644\u0627\u062a \u0627\u0644\u0636\u0631\u064a\u0628\u064a\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0646\u0645\u0648\u0630\u062c \u0636\u0631\u0627\u0626\u0628 \u0648\u0631\u0633\u0648\u0645 \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Sales Taxes and Charges Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0646\u0645\u0648\u0630\u062c \u0636\u0631\u0627\u0626\u0628 \u0648\u0631\u0633\u0648\u0645 \u0627\u0644\u0645\u0634\u062a\u0631\u064a\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Purchase Taxes and Charges Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0646\u0645\u0648\u0630\u062c \u0636\u0631\u064a\u0628\u0629 \u0627\u0644\u0635\u0646\u0641",
+   "link_count": 0,
+   "link_to": "Item Tax Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0641\u0626\u0629 \u0627\u0644\u0636\u0631\u064a\u0628\u0629",
+   "link_count": 0,
+   "link_to": "Tax Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0642\u0627\u0639\u062f\u0629 \u0627\u0644\u0636\u0631\u064a\u0628\u064a\u0629",
+   "link_count": 0,
+   "link_to": "Tax Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0641\u0626\u0629 \u0627\u0644\u0636\u0631\u064a\u0628\u0629 \u0627\u0644\u0645\u0633\u062a\u0642\u0637\u0639\u0629",
+   "link_count": 0,
+   "link_to": "Tax Withholding Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0639\u0645\u0644\u064a\u0627\u062a \u0627\u0644\u0628\u0646\u0643\u064a\u0629",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0628\u0646\u0643",
+   "link_count": 0,
+   "link_to": "Bank",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u062d\u0633\u0627\u0628 \u0627\u0644\u0628\u0646\u0643\u064a",
+   "link_count": 0,
+   "link_to": "Bank Account",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u062a\u0633\u0648\u064a\u0629 \u0627\u0644\u0628\u0646\u0643\u064a\u0629",
+   "link_count": 0,
+   "link_to": "Bank Clearance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0623\u062f\u0627\u0629 \u0627\u0644\u062a\u0633\u0648\u064a\u0629 \u0627\u0644\u0628\u0646\u0643\u064a\u0629",
+   "link_count": 0,
+   "link_to": "Bank Reconciliation Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "GL Entry",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u0628\u064a\u0627\u0646 \u062a\u0633\u0648\u064a\u0629 \u062d\u0633\u0627\u0628 \u0628\u0646\u0643\u064a\u0629",
+   "link_count": 0,
+   "link_to": "Bank Reconciliation Statement",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0645\u0631\u0643\u0632 \u0627\u0644\u062a\u0643\u0644\u0641\u0629 \u0648\u0627\u0644\u0645\u064a\u0632\u0627\u0646\u064a\u0629",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u062f\u0644\u064a\u0644 \u0645\u0631\u0627\u0643\u0632 \u0627\u0644\u062a\u0643\u0644\u0641\u0629",
+   "link_count": 0,
+   "link_to": "Cost Center",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0645\u064a\u0632\u0627\u0646\u064a\u0629",
+   "link_count": 0,
+   "link_to": "Budget",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0628\u064f\u0639\u062f \u0645\u062d\u0627\u0633\u0628\u064a",
+   "link_count": 0,
+   "link_to": "Accounting Dimension",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Cost Center",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u062a\u0648\u0632\u064a\u0639 \u0645\u0631\u0627\u0643\u0632 \u0627\u0644\u062a\u0643\u0644\u0641\u0629",
+   "link_count": 0,
+   "link_to": "Cost Center Allocation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Cost Center",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\u062a\u0642\u0631\u064a\u0631 \u0625\u0646\u062d\u0631\u0627\u0641\u0627\u062a \u0627\u0644\u0645\u064a\u0632\u0627\u0646\u064a\u0629",
+   "link_count": 0,
+   "link_to": "Budget Variance Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u062a\u0648\u0632\u064a\u0639 \u0627\u0644\u0634\u0647\u0631\u064a",
+   "link_count": 0,
+   "link_to": "Monthly Distribution",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-12-02 15:11:33.110448",
+ "modified_by": "Administrator",
+ "module": "Accounts",
+ "name": "Accounting",
+ "number_cards": [
+  {
+   "label": "Total Outgoing Bills",
+   "number_card_name": "Total Outgoing Bills"
+  },
+  {
+   "label": "Total Incoming Bills",
+   "number_card_name": "Total Incoming Bills"
+  },
+  {
+   "label": "Total Incoming Payment",
+   "number_card_name": "Total Incoming Payment"
+  },
+  {
+   "label": "Total Outgoing Payment",
+   "number_card_name": "Total Outgoing Payment"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Payment Terms Template",
+   "link_to": "Payment Terms Template",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "label": "Chart of Accounts",
+   "link_to": "Account",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Payment Term",
+   "link_to": "Payment Term",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "label": "Sales Invoice",
+   "link_to": "Sales Invoice",
+   "type": "DocType"
+  },
+  {
+   "label": "Purchase Invoice",
+   "link_to": "Purchase Invoice",
+   "type": "DocType"
+  },
+  {
+   "label": "Journal Entry",
+   "link_to": "Journal Entry",
+   "type": "DocType"
+  }
+ ],
+ "title": "Accounting"
+}
